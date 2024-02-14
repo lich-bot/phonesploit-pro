@@ -1,12 +1,12 @@
 # PhoneSploit Pro
 ### PhoneSploit with Metasploit Integration.
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/AzeemIdrisi/PhoneSploit-Pro)
-[![CodeFactor](https://www.codefactor.io/repository/github/azeemidrisi/phonesploit-pro/badge)](https://www.codefactor.io/repository/github/azeemidrisi/phonesploit-pro)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/lich-bot/PhoneSploit-Pro)
+[![CodeFactor](https://www.codefactor.io/repository/github/lich-bot/phonesploit-pro/badge)](https://www.codefactor.io/repository/github/lich-bot/phonesploit-pro)
 ![Python](https://img.shields.io/badge/python-v3.10%2B-blue)
-![GitHub Release Date](https://img.shields.io/github/release-date/AzeemIdrisi/PhoneSploit-Pro?logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/AzeemIdrisi/PhoneSploit-Pro?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/AzeemIdrisi/PhoneSploit-Pro?style=social)
-![GitHub forks](https://img.shields.io/github/forks/AzeemIdrisi/PhoneSploit-Pro?style=social)
+![GitHub Release Date](https://img.shields.io/github/release-date/lich-bot/PhoneSploit-Pro?logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/lich-bot/PhoneSploit-Pro?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/lich-bot/PhoneSploit-Pro?style=social)
+![GitHub forks](p)
 
 
 An all-in-one hacking tool written in `Python` to remotely exploit Android devices using `ADB` (Android Debug Bridge) and `Metasploit-Framework`.
@@ -77,7 +77,7 @@ The goal of this project is to make penetration testing on Android devices easy.
 * [`python3`](https://www.python.org/) : Python 3.10 or Newer
 * [`adb`](https://developer.android.com/studio/command-line/adb) : Android Debug Bridge (ADB) from `Android SDK Platform Tools`
 * [`metasploit-framework`](https://www.metasploit.com/) : Metasploit-Framework (`msfvenom` and `msfconsole`)
-* [`scrcpy`](https://github.com/Genymobile/scrcpy) : Scrcpy (Screen Copy)
+* [`scrcpy`](https://github.com/lich-bot/scrcpy) : Scrcpy (Screen Copy)
 
 # Run PhoneSploit Pro 
 
@@ -85,11 +85,11 @@ __PhoneSploit Pro__ does not need any installation and runs directly using `pyth
 
 #### On Linux / macOS :
 
-Make sure all the [required](https://github.com/AzeemIdrisi/PhoneSploit-Pro#requirements) software are installed.
+Make sure all the [required](https://github.com/lich-bot/PhoneSploit-Pro#requirements) software are installed.
 
 Open terminal and paste the following commands : 
 ```
-git clone https://github.com/AzeemIdrisi/PhoneSploit-Pro.git
+git clone https://github.com/lich-bot/PhoneSploit-Pro.git
 ```
 ```
 cd PhoneSploit-Pro/
@@ -99,12 +99,12 @@ python3 phonesploitpro.py
 ```
 #### On Windows :
 
-Make sure all the [required](https://github.com/AzeemIdrisi/PhoneSploit-Pro#requirements) software are installed.
+Make sure all the [required](https://github.com/lich-bot/PhoneSploit-Pro#requirements) software are installed.
 
 
 Open terminal and paste the following commands : 
 ```
-git clone https://github.com/AzeemIdrisi/PhoneSploit-Pro.git
+git clone https://github.com/lich-bot/PhoneSploit-Pro.git
 ```
 ```
 cd PhoneSploit-Pro/
@@ -173,7 +173,7 @@ pkg install android-tools
 
 #### On Linux / macOS :
 ```
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
+curl https://raw.githubusercontent.com/lich-bot/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
   chmod 755 msfinstall && \
   ./msfinstall
  ```
@@ -190,11 +190,11 @@ or Follow this link : [Click Here](https://docs.metasploit.com/docs/using-metasp
 
 # Installing scrcpy
 
-Visit the `scrcpy` GitHub page for latest installation instructions : [Click Here](https://github.com/Genymobile/scrcpy#get-the-app)
+Visit the `scrcpy` GitHub page for latest installation instructions : [Click Here](https://github.com/lich-bot/scrcpy#get-the-app)
 
 **On Windows** : Copy all the files from the extracted **scrcpy** folder to **PhoneSploit-Pro** folder.
 
-If `scrcpy` is not available for your Linux distro, then you can build it with a few simple steps : [Build Guide](https://github.com/Genymobile/scrcpy/blob/master/BUILD.md#build-scrcpy)
+If `scrcpy` is not available for your Linux distro, then you can build it with a few simple steps : [Build Guide](https://github.com/lich-bot/scrcpy/blob/master/BUILD.md#build-scrcpy)
 
 # Tutorial
 
@@ -270,13 +270,9 @@ Some features might not work properly on Windows.
 
 # Developer
 
-<a href="https://github.com/azeemidrisi/">
-  <img src="https://contrib.rocks/image?repo=azeemidrisi/phonesploit-pro" />
+<a href="https://github.com/lich-bot">
+  <img src="https://contrib.rocks/image?repo=lich-bot/phonesploit-pro" />
 </a>
 
 
-**Mohd Azeem** - [@AzeemIdrisi](https://github.com/azeemidrisi/)
- 
-
-# Support Me
-<a href="https://www.buymeacoffee.com/AzeemIdrisi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+**lich-bot** - [@lich-bot](https://github.com/lich-bot/)
